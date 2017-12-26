@@ -10,7 +10,7 @@ crystal: 0.23.1
 dependencies:
   bindgen:
     github: Papierkorb/bindgen
-    branch: master
+    commit: 8dbedf30efc93d9acc24c54813f4d5fcfbaac7c2
 
 scripts:
   postinstall: crystal deps build
