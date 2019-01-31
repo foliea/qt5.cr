@@ -13,6 +13,6 @@ dependencies:
     commit: 8dbedf30efc93d9acc24c54813f4d5fcfbaac7c2
 
 scripts:
-  postinstall: crystal deps build
+  postinstall: shards build
 
 license: MPL-2
